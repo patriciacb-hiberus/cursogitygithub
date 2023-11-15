@@ -4,7 +4,7 @@
 #
 # follows official upstream conventions:
 # https://www.drupal.org/docs/develop/using-composer
-
+##
 # Ignore configuration files that may contain sensitive information
 /web/sites/*/*settings*.php
 /web/sites/*/*services*.yml
@@ -60,7 +60,7 @@
 /drush
 /drupal.phar
 /drupal
-
+##
 #A partir de aqui ignoro persolaizado
 
 !/README.md
